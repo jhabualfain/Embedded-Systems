@@ -44,13 +44,13 @@ int main()
         blueLED = 0; 
 
         // Wait 0.5 second (1 million microseconds)
-        wait_us(200000); 
+        wait_us(150000); 
 
         // Turn LED OFF
         blueLED = 1;
 
         // Wait 0.5 second
-        wait_us(200000); 
+        wait_us(150000); 
     }
 }
 
